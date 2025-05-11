@@ -17,7 +17,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Galería de Imágenes</title>
-    <link rel="icon" type="image/png" href="https://chrisdev.xyz/images/GatoSinFondoBlanco.png">
+    <link rel="icon" type="image/png" href="https://chrisdev.xyz/images/GatoSinFondoNegro.png">
     <style>
         body {
             margin: 0;
@@ -72,7 +72,7 @@
     <h1>📸 Mi Galería de Imágenes</h1>
     <div class="galeria">
         <?php
-        $directorio = 'images/'; // Tú ruta donde se encuentra tu carpeta de imagenes 
+        $directorio = 'imagenes/'; // Tú ruta donde se encuentra tu carpeta de imagenes 
         $archivos = scandir($directorio);
         $dominio = "https://chrisdev.xyz"; // Tu dominio
         
