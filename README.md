@@ -39,7 +39,7 @@
 Busca esta línea en el código:
 
 ```php
-$directorio = 'images/';
+$directorio = 'imagenes/';
 ```
 ```php
 $dominio = "https://tusitio.com";
