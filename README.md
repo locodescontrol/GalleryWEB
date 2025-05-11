@@ -72,5 +72,4 @@ Simplemente sube las imágenes directamente a la carpeta /imagenes de tu hosting
 ---
 
 ## 🧠 Créditos
-Creado por Christofer Rodríguez (SukeK)
-Frase personal: "Cada pared que toco deja de ser invisible."
+Creado por loco_descontrol
