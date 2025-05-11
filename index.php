@@ -17,6 +17,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Galería de Imágenes</title>
+    <link rel="icon" type="image/png" href="https://chrisdev.xyz/images/GatoSinFondoBlanco.png">
     <style>
         body {
             margin: 0;
