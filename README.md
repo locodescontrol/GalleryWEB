@@ -47,8 +47,8 @@ $dominio = "https://tusitio.com";
 ## 📎 Ejemplo de enlace copiado
 Si tu dominio es https://chrisdev.xyz y subes una imagen foto1.jpg, al hacer clic en la imagen se copiará automáticamente este enlace:
 
-```php
-$dominio = "https://tusitio.com";
+```yml
+https://chrisdev.xyz/imagenes/foto1.jpg
 ```
 
 
