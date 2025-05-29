@@ -1,6 +1,6 @@
 # 📸 GalleryWEB
 
-**GalleryWEB** es una galería web autoactualizable que te permite **almacenar, visualizar y copiar enlaces directos a tus imágenes** de forma rápida y sencilla. Ideal para creadores, desarrolladores, y quienes necesitan compartir imágenes sin pérdida de calidad y sin depender de servicios externos.
+**GalleryWEB** es una galería web autoactualizable que te permite **almacenar, visualizar y copiar enlaces directos a tus imágenes y videos** de forma rápida y sencilla. Ideal para creadores, desarrolladores, y quienes necesitan compartir imágenes sin pérdida de calidad y sin depender de servicios externos.
 
 ---
 
@@ -17,7 +17,7 @@
 ## 🛠️ Requisitos
 
 - Hosting con soporte para **PHP 7.x o superior**.
-- Carpeta `/imagenes` dentro del directorio raíz (para almacenar las imágenes).
+- Carpetas `/images` `/videos`  dentro del directorio raíz (para almacenar las imágenes).
 - Acceso FTP o panel para subir archivos al servidor.
 
 ---
@@ -26,7 +26,8 @@
 ```yml
 /public_html (o raíz del hosting)
 │
-├── /imagenes # Aquí subes tus imágenes (jpg, png, gif, etc.)
+├── /images # Aquí subes tus imágenes (jpg, png, gif, etc.)
+├── /videos # Aquí subes tus imágenes (mp4, webm, ogg, mov)
 ├── index.php # Archivo principal que genera la galería
 ```
 
@@ -39,7 +40,10 @@
 Busca esta línea en el código:
 
 ```php
-$directorio = 'imagenes/';
+$directorio = 'imagess/';
+```
+```php
+$directorio = 'videos/';
 ```
 ```php
 $dominio = "https://tusitio.com";
@@ -60,7 +64,7 @@ Puedes editar el bloque <style> en index.php para ajustar colores, tamaños, ani
 ---
 
 ## 💾 ¿Cómo subir las imágenes?
-Simplemente sube las imágenes directamente a la carpeta /imagenes de tu hosting (por FTP o desde el panel del hosting). Se mostrarán automáticamente en la galería y podrás copiarlas con un clic.
+Simplemente sube las imágenes directamente a la carpeta /images y /videos de tu hosting (por FTP o desde el panel del hosting). Se mostrarán automáticamente en la galería y podrás copiarlas con un clic.
 
 ---
 
